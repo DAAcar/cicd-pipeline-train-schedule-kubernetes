@@ -22,12 +22,12 @@ metadata:
 spec:
   replicas: 2
   selector:
-    metchLabels:
+    matchLabels:
       app: train-schedule
   template:
     metadata:
       labels:
-        app:train-schedule
+        app: train-schedule
     spec:
       containers:
       - name: train-schedule
