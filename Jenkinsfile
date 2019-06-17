@@ -1,7 +1,7 @@
 pipeline {
     agent any
     environment {
-        //be sure to replace "willbla" with your own Docker Hub username
+        //useing my Docker Hub username daacar
         DOCKER_IMAGE_NAME = "daacar/train-schedule"
     }
     stages {
